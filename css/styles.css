@@ -1,19 +1,26 @@
 /* Stylesheet */
 
 body{
-	background: #333;
+}
+
+p, h3 {
+	font-family: 'Numans', sans-serif;
+}
+
+h3 {
+	text-transform: uppercase;
 }
 
 header {
-	background: #999;
+	
 	}
 	
 nav {
-	background: #FFF;
+	
 }
 	
 blockquote {
-	background:#0FF;
+	
 }
 
 .container_12 {
@@ -21,9 +28,10 @@ blockquote {
 }
 
 footer{
-	background: red;
+	
 }
 
 section {
-	background: #666;
+	
 }
+
