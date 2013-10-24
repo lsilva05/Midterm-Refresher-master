@@ -1,7 +1,7 @@
 /* Stylesheet */
 
 body{
-	background: url("../img/woodgrain.png");
+	background: url("../img/bg.png");
 }
 
 p, h3 {
@@ -12,26 +12,39 @@ h3 {
 	text-transform: uppercase;
 }
 
-header {
+
 	
-	}
-	
-nav {
-	
-}
-	
-blockquote {
-	
+/* 
+ A. Make horizontal navigaton
+ B. Improve accessiblity of links
+*/
+
+li {
+  float: left;
+  background: red;
+
+  line-height: 50px;
+  list-style: none;
+	margin: 0 5px;
+  text-align: right;
+
 }
 
-
-footer{
-	
+a {
+  color: #fff;
+  height: 50px;
+  display: block;
+  width: 150px;
+  padding: 0 10px 0 0;
+  text-transform: uppercase;
+  text-decoration: none;
 }
 
-section {
-	
+a:hover {
+  background: blue;
 }
+
+	
 
 .showgrid{
 	 background: url("../img/12-col-grid.gif");
