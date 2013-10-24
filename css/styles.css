@@ -21,7 +21,6 @@ h3 {
 
 li {
   float: left;
-  background: red;
 
   line-height: 50px;
   list-style: none;
@@ -40,12 +39,26 @@ a {
   text-decoration: none;
 }
 
-a:hover {
-  background: blue;
-}
-
+#google a:hover {
+		background: url("../img/chrome.png") no-repeat 20px center;
+	}
 	
+#mozilla a:hover {
+		background: url("../img/firefox.png") no-repeat 20px center;
+	}
 
-.showgrid{
-	 background: url("../img/12-col-grid.gif");
-}
+#apple a:hover {
+		background: url("../img/safari.png") no-repeat 20px center;
+	}
+	
+#google a:hover {
+		background: url("../img/chrome.png") no-repeat 20px center;
+	}
+
+#opera a:hover {
+		background: url("../img/opera.png") no-repeat 20px center;
+	}
+	
+#microsoft a:hover {
+		background: url("../img/ie.png") no-repeat 20px center;
+	}
