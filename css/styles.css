@@ -1,6 +1,7 @@
 /* Stylesheet */
 
 body{
+	background: url("../img/woodgrain.png");
 }
 
 p, h3 {
@@ -23,9 +24,6 @@ blockquote {
 	
 }
 
-.container_12 {
-	background: #CCC;
-}
 
 footer{
 	
@@ -35,3 +33,6 @@ section {
 	
 }
 
+.showgrid{
+	 background: url("../img/12-col-grid.gif");
+}
